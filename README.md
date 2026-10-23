@@ -1,25 +1,33 @@
-# Proyecto Django: Gestión de Proyectos y Tareas
+# Django Project and Task Management
 
-## Descripción
-Este proyecto fue desarrollado con Django y permite administrar proyectos y las tareas relacionadas con cada uno mediante el panel de administración.
+## Description
 
-## Tecnologías utilizadas
+This project was developed with Django to manage projects and their related tasks through the Django administration panel.
+
+## Technologies
+
 - Python
 - Django
 - SQLite
 
-## Modelos
-- **Proyecto:** almacena el nombre, la descripción y la fecha de creación.
-- **Tarea:** almacena el título, la descripción y el proyecto al que pertenece.
+## Models
 
-## Funcionalidades
-- Registrar y administrar proyectos.
-- Crear y administrar tareas.
-- Relacionar cada tarea con un proyecto.
-- Consultar la información desde el panel de administración de Django.
+- **Project:** stores the project name, description, and creation date.
+- **Task:** stores the task title, description, and the project it belongs to.
 
-## Base de datos
-El proyecto utiliza SQLite y contiene ejemplos de proyectos y tareas para demostrar su funcionamiento.
+Each project can have multiple tasks, and each task belongs to one project.
 
-## Autor
+## Features
+
+- Create and manage projects.
+- Create and manage tasks.
+- Associate each task with a project.
+- Manage information through the Django admin panel.
+
+## Database
+
+The project uses SQLite and includes sample projects and tasks.
+
+## Author
+
 Cristian Almendrales
